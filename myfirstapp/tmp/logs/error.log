@@ -1,0 +1,596 @@
+2015-04-26 19:33:05 Error: [MissingControllerException] Controller class TopicsController could not be found.
+Exception Attributes: array (
+  'class' => 'TopicsController',
+  'plugin' => NULL,
+)
+Request URL: /sites/myfirstapp/Topics/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-26 19:45:49 Error: [MissingActionException] Action TopicsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'index',
+)
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-26 19:47:14 Error: [MissingViewException] View file "/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/index.ctp',
+)
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Library/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-26 20:05:41 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/TopicsController.php, line 20]
+2015-04-26 20:05:41 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 20, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 20, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 20:14:02 Error: Fatal Error (1): Call to undefined method View::link() in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/index.ctp, line 12]
+2015-04-26 20:14:02 Error: [FatalErrorException] Call to undefined method View::link()
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 12, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 12, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 20:15:17 Error: [MissingActionException] Action TopicsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'view',
+)
+Request URL: /sites/myfirstapp/topics/view/1
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-26 20:43:01 Error: [MissingViewException] View file "/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp',
+)
+Request URL: /sites/myfirstapp/topics/delete/1
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Library/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-26 20:43:29 Error: [MissingViewException] View file "/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp',
+)
+Request URL: /sites/myfirstapp/topics/delete/1
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Library/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-26 20:51:58 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/index.ctp, line 20]
+2015-04-26 20:51:58 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 20, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 20, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 20:52:08 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/index.ctp, line 20]
+2015-04-26 20:52:08 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 20, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 20, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 20:53:52 Error: [MissingViewException] View file "/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp',
+)
+Request URL: /sites/myfirstapp/topics/delete/1
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Library/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-26 20:54:58 Error: [MissingViewException] View file "/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp',
+)
+Request URL: /sites/myfirstapp/topics/delete/1
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Library/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-26 20:57:19 Error: [MissingViewException] View file "/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp',
+)
+Request URL: /sites/myfirstapp/topics/delete/1
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Library/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-26 20:57:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delte' at line 1
+Request URL: /sites/myfirstapp/topics/delete/1
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('delte', Array)
+#2 /Library/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('delte', Array, Array)
+#3 /Library/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('delte', Array, Array)
+#4 /Library/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('delte', Array, Object(Topic))
+#5 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/TopicsController.php(67): Model->__call('delte', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/TopicsController.php(67): Topic->delte()
+#7 [internal function]: TopicsController->delete('1')
+#8 /Library/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#9 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 20:58:04 Error: [MissingViewException] View file "/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/delete.ctp',
+)
+Request URL: /sites/myfirstapp/topics/delete/1
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Library/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-26 21:13:19 Error: Fatal Error (4): syntax error, unexpected 'fnction' (T_STRING), expecting variable (T_VARIABLE) in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 4]
+2015-04-26 21:13:19 Error: [FatalErrorException] syntax error, unexpected 'fnction' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /sites/myfirstapp/Posts/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 4, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 4, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:13:52 Error: Fatal Error (4): syntax error, unexpected 'fnction' (T_STRING), expecting variable (T_VARIABLE) in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 4]
+2015-04-26 21:13:52 Error: [FatalErrorException] syntax error, unexpected 'fnction' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 4, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 4, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:14:22 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-26 21:14:59 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-26 21:22:29 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:22:29 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:22:39 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:22:39 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:23:41 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:23:41 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:25:13 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:25:13 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:27:26 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:27:26 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:28:11 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:28:11 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:28:16 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:28:16 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:30:45 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:30:45 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:31:20 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:31:20 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:34:14 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:34:14 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:35:57 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:35:57 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:37:01 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 18]
+2015-04-26 21:37:01 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:42:21 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 19]
+2015-04-26 21:42:21 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:43:34 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 19]
+2015-04-26 21:43:34 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:43:37 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 19]
+2015-04-26 21:43:37 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:43:56 Error: Fatal Error (1): Call to a member function loadModel() on boolean in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 19]
+2015-04-26 21:43:56 Error: [FatalErrorException] Call to a member function loadModel() on boolean
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:44:36 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 19]
+2015-04-26 21:44:36 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 19, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:54:13 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 28]
+2015-04-26 21:54:13 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 28, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 28, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:55:19 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 28]
+2015-04-26 21:55:19 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add/
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 28, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 28, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 21:55:33 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php, line 28]
+2015-04-26 21:55:33 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /sites/myfirstapp/Posts/add
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 28, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 28, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 08:15:27 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /sites/myfirstapp/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-27 10:13:29 Error: [MissingPluginException] Plugin Debugkit could not be found.
+Exception Attributes: array (
+  'plugin' => 'Debugkit',
+)
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Core/App.php(227): CakePlugin::path('Debugkit')
+#1 /Library/cakephp/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'Debugkit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 /Library/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 /Library/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Debugkit.Toolba...', Array)
+#6 /Library/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#8 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-27 10:24:58 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 68]
+2015-04-27 10:24:58 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /sites/myfirstapp/users/add
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 68, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 68, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 11:16:47 Error: Fatal Error (4): syntax error, unexpected '||' (T_BOOLEAN_OR) in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/index.ctp, line 45]
+2015-04-27 11:16:47 Error: [FatalErrorException] syntax error, unexpected '||' (T_BOOLEAN_OR)
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 45, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 45, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 11:17:11 Error: Fatal Error (4): syntax error, unexpected 'OR' (T_LOGICAL_OR) in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/index.ctp, line 45]
+2015-04-27 11:17:11 Error: [FatalErrorException] syntax error, unexpected 'OR' (T_LOGICAL_OR)
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 45, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 45, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:13:00 Error: Fatal Error (1): Class 'myfirstapp' not found in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/view.ctp, line 2]
+2015-04-27 12:13:00 Error: [FatalErrorException] Class 'myfirstapp' not found
+Request URL: /sites/myfirstapp/topics/view/21
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'myfirsta...', '/Applications/X...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'myfirsta...', '/Applications/X...', 2, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'myfirsta...', '/Applications/X...', 2, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:16:31 Error: Fatal Error (1): Class 'UsersController' not found in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/view.ctp, line 18]
+2015-04-27 12:16:31 Error: [FatalErrorException] Class 'UsersController' not found
+Request URL: /sites/myfirstapp/topics/view/21
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'UsersCon...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'UsersCon...', '/Applications/X...', 18, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'UsersCon...', '/Applications/X...', 18, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:34:15 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/View/Topics/index.ctp, line 67]
+2015-04-27 12:34:15 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /sites/myfirstapp/topics/index
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 67, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 67, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:42:04 Error: [CakeException] Unknown status code
+Request URL: /sites/myfirstapp/posts/add/21
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Controller/Controller.php(785): CakeResponse->statusCode('21')
+#1 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/PostsController.php(27): Controller->redirect('/topics/view/', '21')
+#2 [internal function]: PostsController->add('21')
+#3 /Library/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /Library/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-04-27 12:48:14 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 55]
+2015-04-27 12:48:14 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 55, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 55, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:49:17 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 56]
+2015-04-27 12:49:17 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 56, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 56, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:49:26 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 56]
+2015-04-27 12:49:26 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 56, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 56, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:50:16 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 75]
+2015-04-27 12:50:16 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:50:56 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 75]
+2015-04-27 12:50:56 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:51:39 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 75]
+2015-04-27 12:51:39 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:51:41 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 75]
+2015-04-27 12:51:41 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:52:24 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 75]
+2015-04-27 12:52:24 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-27 12:52:27 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/sites/myfirstapp/Controller/UsersController.php, line 75]
+2015-04-27 12:52:27 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /sites/myfirstapp/users
+Stack Trace:
+#0 /Library/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#2 /Library/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 75, Array)
+#3 /Library/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
